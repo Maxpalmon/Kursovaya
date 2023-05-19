@@ -1,25 +1,22 @@
 package com.example.kursovaya.client;
 
-        import java.net.URL;
-        import java.util.ArrayList;
-        import java.util.ResourceBundle;
+import com.example.kursovaya.models.Ticket;
+import javafx.application.Platform;
+import javafx.beans.property.SimpleBooleanProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
-        import com.example.kursovaya.models.Ticket;
-        import javafx.application.Platform;
-        import javafx.beans.property.SimpleBooleanProperty;
-        import javafx.beans.property.SimpleIntegerProperty;
-        import javafx.beans.property.SimpleStringProperty;
-        import javafx.beans.value.ObservableValue;
-        import javafx.collections.FXCollections;
-        import javafx.collections.ObservableList;
-        import javafx.event.ActionEvent;
-        import javafx.fxml.FXML;
-        import javafx.scene.control.Button;
-        import javafx.scene.control.TableColumn;
-        import javafx.scene.control.TableView;
-        import javafx.scene.control.cell.PropertyValueFactory;
-        import javafx.util.Callback;
-        import org.w3c.dom.events.MouseEvent;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.ResourceBundle;
 
 public class BuyTicketController {
 
