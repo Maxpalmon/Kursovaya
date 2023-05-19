@@ -1,4 +1,5 @@
 About
+
 This is an educational project with a purpose to dive deeper into asynchronous and multithreaded Java code.
 
 The project is inspired by the theme of a trip companies.
