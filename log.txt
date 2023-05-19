@@ -1,0 +1,6 @@
+[2023-05-19 14:42:43] [INFO] Client <0> has connected. 
+[2023-05-19 14:44:30] [INFO] Client <0> sent loginRequest with login 'admin' and password 'blabla' 
+[2023-05-19 14:44:30] [INFO] Server replied to Client <0> loginRequest with status=False 
+[2023-05-19 14:45:24] [INFO] Client <0> sent loginRequest with login 'admin' and password 'blabla' 
+[2023-05-19 14:45:24] [INFO] Server replied to Client <0> loginRequest with status=False 
+[2023-05-19 14:50:26] [INFO] Client <0> has disconnected. 
